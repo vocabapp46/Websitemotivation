@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-    background-color: rgb(255, 223, 223);
+	
 }
 html {
 	font-size: 10px;
@@ -23,9 +23,9 @@ a {
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: black;
+	color: white;
 	background-color: transparent;
-	border: 2px solid rgb(121, 11, 33);
+	border: 2px solid rgb(11, 55, 121);
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -33,18 +33,19 @@ a {
 	transition: 0.3s ease;
 	transition-property: background-color, color;
 }
+
 .cta:hover {
 	color: rgb(107, 29, 29);
 	background-color: rgb(206, 209, 248);
 }
+
 .brand h1 {
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	color: white;
-    background-color: black;
 }
 .brand h1 span {
-	color: rgb(206, 209, 248);
+	color: white;
 }
 
 #header {
@@ -57,12 +58,14 @@ a {
     background-color: black;
     color: white;
 }
+
 #header .header {
 	min-height: 8vh;
 	background-color: black;
     color: white;
 	transition: 0.3s ease background-color;
 }
+
 #header .nav-bar {
 	display: flex;
 	align-items: center;
@@ -112,7 +115,7 @@ a {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgb(255, 223, 223);
+	color: rgb(0, 0, 0);
 	font-size: 8rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -184,7 +187,7 @@ a {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background: linear-gradient(rgb(132, 0, 255), rgba(53, 0, 186, 0.422), rgba(34, 0, 75, 0.61));
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -197,7 +200,7 @@ a {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgb(255, 223, 223);
+	background-color: rgb(20, 0, 43);
 	opacity: 0.7;
 	z-index: -1;
 }
