@@ -273,7 +273,7 @@ a {
 }
 @keyframes text_reveal {
 	100% {
-		color: black;
+		color: white;
 	}
 }
 @keyframes text_reveal_name {
