@@ -262,13 +262,20 @@ a {
 	}
 }
 @keyframes text_reveal_box {
+	0% {
+		width: 0;
+		left: 100%;
+		background-color: black; /* Ensure the starting color is black */
+	}
 	50% {
 		width: 100%;
 		left: 0;
+		background-color: black; /* Ensure it's black halfway through */
 	}
 	100% {
 		width: 0;
 		left: 100%;
+		background-color: black; /* Ensure it's black at the end too */
 	}
 }
 @keyframes text_reveal {
